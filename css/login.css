@@ -1,0 +1,124 @@
+*{margin: 0;padding: 0;}
+html,body{height: 100%;width: 100%;overflow: hidden}
+body{
+    min-width: 1170px;
+    background: url("../img/cd2.jpg") no-repeat;
+    background-size: cover;
+    background-position-y:bottom;
+}
+a{
+    text-decoration: none;
+    color: #68A4C4;
+}
+.logo{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 76px;
+}
+.logo p{
+    font-size: 40px;
+}
+.logo span{
+    color: #009AD0;
+}
+.logo:before,.logo:after {
+    content: "";
+    background: url("../img/left.png") no-repeat;
+    background-size: 25px;
+    width: 41px;
+    height: 38px;
+    position: absolute;
+    display: inline-block;
+    margin-left: -223px;
+    margin-top: 80px;
+}
+.logo:after{
+    background: url("../img/right.png") no-repeat;
+    width: 42px;
+    height: 37px;
+    background-size: 25px;
+    margin-left: 7px;
+    margin-top: 40px;
+}
+.box{
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.loginform{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.input{
+    margin-left: -19px;
+    text-indent: 20px;
+    font-size: 23px;
+    height: 50px;
+    width: 333px;
+    background-color: rgba(26, 185, 113, 0.21);
+    border: none;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.imgframe {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    background: url('../img/logo.png') no-repeat white 13px;
+    background-size: 95px;
+}
+.remenber{
+    margin-top: 13px;
+    display: inherit;
+}
+.loginbtn {
+    padding: 8px 0;
+    display: block;
+    background-color: #009AD0;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+    transition: 300ms all;
+    width: 331px;
+    margin-left: -17px;
+}
+.regist{
+    width: 500px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+.regist a{
+    display: inline-block;
+    margin: 15px 18px;
+}
+.disply{
+    display: none;
+    transform:rotateX(90deg);
+    -webkit-transform:rotateX(90deg); /* Safari and Chrome */
+    -moz-transform:rotateX(90deg); /* Firefox */
+}

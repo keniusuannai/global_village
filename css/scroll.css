@@ -1,0 +1,50 @@
+.cd-main-content {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.cd-fixed-bg {
+    position: relative;
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+}
+
+.cd-fixed-bg h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 1170px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 18px;
+    line-height: 50px;
+    font-family: "幼圆", "Times New Roman", Georgia, Serif;
+}
+.cd-fixed-bg.cd-bg-1 {
+    background-image: url("../img/cd1.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+    background-image: url("../img/cd2.jpg");
+}
+.cd-fixed-bg {
+    background-attachment: fixed;
+}
+.cd-scrolling-bg {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.cd-2{
+    height: 555px;
+}
+.cd-3{
+    height: 720px;
+}

@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/*body{overflow-y: hidden;}*/
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-weight: 300;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+header {
+    width: 100%;
+    min-width: 1170px;
+    height: 75px;
+    box-shadow: 1px 1px 1px #b8b8b8;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.brand {
+    float: left;
+}
+
+.nav_brand {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-top: 30px;
+    padding: 0 0 0 15px;
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.nav_brand:hover {
+    color: #656565;
+}
+
+.nav_brand span {
+    color: #68A4C4;
+}
+
+.nav_menu {
+}
+
+.nav_menu ul {
+    list-style: none;
+    float: right;
+    margin-right: 0;
+}
+
+.nav_menu ul li {
+    float: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+    display: block;
+}
+
+.nav_menu ul li a {
+    font-size: 17px;
+    font-weight: 900;
+    padding: 10px 0 10px;
+    margin-left: 20px;
+    margin-right: 0;
+    color: #111;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.nav_menu ul li a:hover {
+    color: #68A4C4;
+}
+
+#main {
+    background-image: url("../img/images/dark-tl.svg"), url("../img/images/dark-tr.svg"), url("../img/images/dark-bl.svg"), url("../img/images/dark-br.svg");
+    background-position: top left, top right, bottom left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 25em;
+    padding: 7em 0;
+}
+
+.special {
+    padding-top: 5.5em;
+    margin-bottom: 4em;
+    position: relative;
+    text-align: center;
+
+}
+
+.special:before, .special:after {
+    border-bottom: solid 1.5px;
+    border-top: solid 1.5px;
+    content: '';
+    height: 7px;
+    opacity: 0.1;
+    position: absolute;
+    top: 1.75em;
+    width: 43%;
+    margin-left: 112px;
+}
+
+.special:after {
+    left: -152px;
+}
+
+.special .icon {
+    cursor: default;
+    height: 7em;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 1em;
+    width: 100%;
+}
+
+.special h2 {
+    margin-bottom: 0;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.fa-laptop:before {
+    content: url("../img/eco.png");
+    top: -56px;
+    position: relative;
+    font-size: 3.5em;
+    opacity: 0.5;
+}
+
+.wrapper {
+    display: block;
+    background: white;
+    color: inherit;
+    padding: 4em;
+    margin-bottom: 5em;
+}
+
+.biaodan {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    top: -17px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.biaodan .input {
+    margin-left: 20px;
+    text-indent: 20px;
+    font-size: 23px;
+    height: 50px;
+    width: 280px;
+    background-color: rgba(243, 246, 250, 0.30);
+    border: none;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.submit{
+    margin-left: 95px !important;
+    background-color: #89c486 !important;
+}
+.file-box {
+    display: inline-block;
+    position: relative;
+    width: 340px;
+    margin-left: 3px;
+    margin-top: 18px;
+}
+
+.txt {
+    height: 22px;
+    border: 1px solid #cdcdcd;
+    width: 180px;
+}
+
+.btn {
+    background-color: #FFF;
+    border: 1px solid #CDCDCD;
+    height: 24px;
+    width: 70px;
+}
+
+.file {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    height: 24px;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    width: 260px
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #68A4C4;
+}
+.footer_main{
+    width: 1100px;
+    position: absolute;
+    left: 30%;
+}
+.footer_box{
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+}
+.footer_box a{
+    color: #ffffff;
+}
+.footer_box a:hover{
+    color: #d1d1d1;
+}
+.copy{
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    bottom: -45px;
+    left: -112px;
+}
